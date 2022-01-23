@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mode_histoire{
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+.paragraphe_mode_histoire{
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+    font-size: 120%
+        
+}
+
+.mission{
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+.paragraphe_missions{
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+    font-size: 120%
+}
+
+li{
+    font-size: 150%;
+    font-family: fantasy;
+    position: relative;
+}
+
+.paragraphe_bas_de_page{
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    font-size: 200%;
+    color: blue;
+}
+
+.video{
+    font-size: 200%;
+    text-align: center;
+}
+
+img{
+    margin: 30px;
+}
+
+.img_trop_grande{
+    width: 90%;
+}
+
+
+
