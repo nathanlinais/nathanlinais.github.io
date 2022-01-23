@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mode_rp{
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+.paragraphe_mode_rp{
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+    font-size: 120%
+}
+
+.img_online{
+    width: 90%;
+    margin: 50px
+}
+
+.paragraphe_business{
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+    font-size: 120%;
+}
+
+.motor_club{
+    width: 90%;
+    margin: 50px;
+}
+
+.paragraphe_jspquoifaire{
+    position: relative;
+    text-align: center;
+    font-family: cursive;
+    font-size: 120%;
+}
+
+.riche{
+    width: 95%;
+    margin: 50px;
+}
+
+.paragraphe_footer{
+    position: relative;
+    text-align: center;
+    font-family: serif;
+    font-size: 150%;
+    color: blue;
+    margin: 50px;
+    text-decoration: underline;
+}
+
+iframe{
+    margin: 50px;
+}
+
+.video{
+    font-size: 200%;
+    text-align: center;
+}
